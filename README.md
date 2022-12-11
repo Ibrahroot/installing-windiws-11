@@ -17,116 +17,33 @@ Method For Installing Windows 11
 
 # Table of Contents
 
-1. [Getting Started](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#getting-started)
+1. [Getting Started](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#getting-started)
 
-      - [Windows 11 Desktop](https://github.com/mikeroyal/Windows-11-Guide#windows-11-desktop)
-      - [Bypass Windows 11's TPM, CPU and RAM Requirements](https://github.com/mikeroyal/Windows-11-Guide#bypass-Windows-11-requirements)
-      - [Creating a Local Account on Windows 11 Home and Pro](https://github.com/mikeroyal/Windows-11-Guide#Creating-a-Local-Account-on-Windows-11-Home-and-Pro)
-      - [Removing the Windows 11 Watermark for Unsupported Hardware](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#removing-the-windows-11-watermark)
-      - [Ways to Customize Windows 11 Look and Feel](https://github.com/mikeroyal/Windows-11-Guide#Ways-to-Customize-Windows-11-Look-and-Feel)
-      - [Installing drivers for Windows, AMD, NVIDIA, Intel ARC the easy way](https://github.com/mikeroyal/Windows-11-Guide#installing-drivers-for-windows-amd-and-nvidia)
+      - [Windows 11 Desktop](https://github.com/Ibrahroot/installing-windiws-11#windows-11-desktop)
+      - [Bypass Windows 11's TPM, CPU and RAM Requirements](https://github.com/Ibrahroot/installing-windiws-11#bypass-Windows-11-requirements)
+      - [Creating a Local Account on Windows 11 Home and Pro](https://github.com/Ibrahroot/installing-windiws-11#Creating-a-Local-Account-on-Windows-11-Home-and-Pro)
+      - [Removing the Windows 11 Watermark for Unsupported Hardware](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#removing-the-windows-11-watermark)
+      - [Ways to Customize Windows 11 Look and Feel](https://github.com/Ibrahroot/installing-windiws-11#Ways-to-Customize-Windows-11-Look-and-Feel)
+      - [Installing drivers for Windows, AMD, NVIDIA, Intel ARC the easy way](https://github.com/Ibrahroot/installing-windiws-11#installing-drivers-for-windows-amd-and-nvidia)
         * [General Drivers](#General-Drivers)
         * [NVIDIA](#NVIDIA)
         * [AMD](#AMD)
         * [Intel ARC](#Intel-ARC)
         * [Gaming Peripherals](#Gaming-Peripherals)
-      - [Microsoft Office Alternatives](https://github.com/mikeroyal/Windows-11-Guide#microsoft-office-alternatives)
-      - [Secure & Privacy-focused Web Browsers](https://github.com/mikeroyal/Windows-11-Guide#secure--privacy-focused-web-browsers)
-         * [Privacy & Security Focused Browser extensions](https://github.com/mikeroyal/Windows-11-Guide#privacy--security-focused-browser-extensions)
-         * [Privacy-focused Search Engines](https://github.com/mikeroyal/Windows-11-Guide#privacy-focused-search-engines)
-      - [Windows Security Hardening](https://github.com/mikeroyal/Windows-11-Guide#Windows-Security-Hardening)
-         * [Encryption Tools](https://github.com/mikeroyal/Windows-11-Guide#Encryption-Tools)
-      - [Manage/Control Fans (CPU, GPU, and motherboard)](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#managecontrol-fans)
-      - [Storage Disk Health/Data Recovery](https://github.com/mikeroyal/Windows-11-Guide#Storage-Disk-HealthData-Recovery)
-      - [Battery Health](https://github.com/mikeroyal/Windows-11-Guide#Battery-Health)
-     
+      - [Microsoft Office Alternatives](https://github.com/Ibrahroot/installing-windiws-11#microsoft-office-alternatives)
+      - [Secure & Privacy-focused Web Browsers](https://github.com/Ibrahroot/installing-windiws-11#secure--privacy-focused-web-browsers)
+         * [Privacy & Security Focused Browser extensions](https://github.com/Ibrahroot/installing-windiws-11#privacy--security-focused-browser-extensions)
+         * [Privacy-focused Search Engines](https://github.com/Ibrahroot/installing-windiws-11#privacy-focused-search-engines)
+      - [Windows Security Hardening](https://github.com/Ibrahroot/installing-windiws-11#Windows-Security-Hardening)
+         * [Encryption Tools](https://github.com/Ibrahroot/installing-windiws-11#Encryption-Tools)
+      - [Manage/Control Fans (CPU, GPU, and motherboard)](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#managecontrol-fans)
+      - [Storage Disk Health/Data Recovery](https://github.com/Ibrahroot/installing-windiws-11#Storage-Disk-HealthData-Recovery)
+      - [Battery Health](https://github.com/Ibrahroot/installing-windiws-11#Battery-Health)
 
-2. [Getting Software](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#getting-software)
 
-3. [Gaming](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#gaming)
-   - [DirectStorage](#DirectStorage)
-   - [Setting up OBS Studio](#Setting-up-OBS-Studio)
-      * [Useful OBS Studio 3rd party Plugins & Themes](#useful-obs-studio-3rd-party-plugins-and-themes)
-   - [Discord](#Discord)
-   - [Twitch](#Twitch)
-   - [Game Controllers](#game-controllers)
-   - [Steam](https://github.com/mikeroyal/Windows-11-Guide#steam)
-   - [Epic Games Store](https://github.com/mikeroyal/Windows-11-Guide#epic-games-store)
-   - [GOG Galaxy Store](#GOG-Galaxy)
-   - [Itch.io Store](#Itchio-Store)
-   - [Game Streaming](https://github.com/mikeroyal/Windows-11-Guide#game-streaming)
-   - [Game Emulators](https://github.com/mikeroyal/Windows-11-Guide#game-emulators)
-   - [Performance Benchmarks](https://github.com/mikeroyal/Windows-11-Guide#performance-benchmarks)
+2. [Getting Software](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#getting-software)
 
-4. [Windows Subsystem for Android (WSA)](https://github.com/mikeroyal/Windows-11-Guide#windows-subsystem-for-android-wsa)
-
-   - [Getting started with Windows Subsystem for Android](https://github.com/mikeroyal/Windows-11-Guide#getting-started-with-windows-subsystem-for-android)
-   - [Windows Subsystem for Android Settings](https://github.com/mikeroyal/Windows-11-Guide#windows-subsystem-for-android-settings)
-   - [WSA Toolbox](https://github.com/mikeroyal/Windows-11-Guide#wsa-toolbox)
-
-5. [Windows Subsystem for Linux (WSL)](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#windows-subsystem-for-linux-wsl)
-  
-    - [WSL Learning Resources](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#wsl-learning-resources)
-    - [WSL Tools and Projects](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#wsl-tools--projects)
-    - [Setting up WSL Linux Distributions](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#setting-up-wsl-linux-distributions)
-
-6. [Windows Terminal](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#windows-terminal)
-
-7. [Visual Studio and VSCode](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#visual-studio-and-vscode)
-    - [Visual Studio Extensions for Developer Productivity](https://github.com/mikeroyal/Windows-11-Guide#Visual-Studio-Extensions-for-Developer-Productivity)
-    - [VS Code Extensions for Developer Productivity](https://github.com/mikeroyal/Windows-11-Guide#VS-Code-Extensions-for-Developer-Productivity)
-
-8. [Game Development](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#game-development)
-
-9. [Setting up a macOS Workspace](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#setting-up-a-macos-workspace)
-
-10. [Android Development](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#android-development)
-
-11. [Professional Audio/Video Editing](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#professional-audio--video-editing)
-
-12. [3D Graphics and Design](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#3d-graphics-and-design)
-
-13. [Kubernetes](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#kubernetes)
-
-14. [Machine Learning](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#machine-learning)
-
-15. [Robotics](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#robotics)
-
-16. [Open Source Security](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#open-source-security)
-
-17. [Differential Privacy](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#differential-privacy)
-
-18. [DevOps](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#devops)
-
-19. [.NET Development](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#net-development)
-
-20. [C# Development](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#c-development)
-
-21. [F# Development](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#f-development)
-
-22. [PowerShell Development](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#powershell-development)
-
-23. [TypeScript Development](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#typescript-development)
-
-24. [React Native Development](https://github.com/mikeroyal/Windows-11-Guide#react-native-development)
-
-25. [ElectronJS Development](https://github.com/mikeroyal/Windows-11-Guide#electron-development)
-
-26. [C/C++ Development](https://github.com/mikeroyal/Windows-11-Guide#cc-development)
-
-27. [Java Development](https://github.com/mikeroyal/Windows-11-Guide#java-development)
-
-28. [Python Development](https://github.com/mikeroyal/Windows-11-Guide#python-development)
-
-29. [Ruby Development](https://github.com/mikeroyal/Windows-11-Guide#ruby-development)
-
-30. [Flutter Development](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#flutter-development)
-
-31. [Node.js Development](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#nodejs-development)
-
-32. [Networking](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#networking)
-
-33. [Databases](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#databases)
+3.
 
 # Getting Started
 
@@ -173,7 +90,7 @@ Method For Installing Windows 11
 [ARM64EC (“Emulation Compatible”)](https://docs.microsoft.com/en-us/windows/uwp/porting/arm64ec) is a new application binary interface (ABI) for Windows 11 on ARM that runs with native speed and is interoperable with x64 architecture. An app, process, or even a module can freely mix and match with ARM64EC and x64 as needed. The ARM64EC code in the app will run natively while any x64 code will run using Windows 11 on ARM’s built-in emulation. The ARM64EC ABI differs slightly from the current [ARM64 ABI](https://docs.microsoft.com/en-us/cpp/build/arm64-windows-abi-conventions?view=msvc-160) in ways that make it binary compatible with x64 code. Specifically, the ARM64EC ABI follows x64 software conventions including calling convention, stack usage, and data alignment, making ARM64EC and x64 interoperable. Apps built as ARM64EC may contain x64 code but do not have to, since ARM64EC is its own complete, first-class ABI for Windows.
 
 ## Windows 11 Desktop
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/124991551-acdc4e00-dff6-11eb-9711-eb03460f144e.png">
@@ -211,7 +128,7 @@ Method For Installing Windows 11
 **Easily snap the layout of your Desktop Apps on Windows 11. Source: [Microsoft](https://www.microsoft.com/en-us/windows/windows-11)**
 
 ## Bypass Windows 11 Requirements
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 **Note 1: Before performing any upgrade to your system make sure to do a full backup of your system in case anything happens during the upgrade process!**
 
@@ -246,7 +163,7 @@ Add a new selection dialog for Windows 11 setup customization:
     **(Note: Network must be temporarily disabled for the local account creation to be proposed).**
   * Added an option to skip all collection questions (Sets all answers to “Don’t allow”).
   * Added an option for setting internal drives offline for Windows To Go.
-  
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/183272077-015b8bb2-af94-443a-a455-f2018fcbd52a.png">
   <br />
@@ -254,7 +171,7 @@ Add a new selection dialog for Windows 11 setup customization:
 </p>
 
 ## Creating a Local Account on Windows 11 Home and Pro
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 **In Windows 11 Home and Pro editions Microsoft will require you to sign-in with Microsoft Account. Though, by following these simple steps below you can create a Local Account on the your Windows 11 device.**
 
@@ -309,22 +226,22 @@ Add a new selection dialog for Windows 11 setup customization:
 </p>
 
 ## Removing the Windows 11 Watermark
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 There’s already a way to remove the Windows 11 watermark. It’s important to know that removing the watermark does include editing some system registry files. So, do this at your own risk, and be careful.
 
  - 1.  Access the Registry Editor by typing **‘Regedit’** in the Windows 11 search box and hitting OK to open it.
-  
+
  - 2.  On the left side, open up **HKEY_CURRENT_USER** and scroll down to the **Control Panel**.
-  
+
  - 3.  Find the entry called **UnsupportedHardwareNotificationCache**.
-  
+
  - 4. **Right-click** that entry and select **‘Modify’** from the menu.
-  
+
  - 5. Change the **SV2 DWORD** value from 1 to **0**.
-  
+
  - 6. Save, exit, and then restart your PC.
- 
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/168446887-eba7be6f-7f23-4f50-bbfa-4ed5ea0dbd3d.png">
 <br />
@@ -332,7 +249,7 @@ There’s already a way to remove the Windows 11 watermark. It’s important to 
 
 
 ## Ways to Customize Windows 11 Look and Feel
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 [ThisIsWin11](https://github.com/builtbybel/ThisIsWin11) is a tool which helps you set up and customize Windows 11. Created by [Builtbybel](https://twitter.com/builtbybel).
 
@@ -386,7 +303,7 @@ There’s already a way to remove the Windows 11 watermark. It’s important to 
  * Component Removal.
  * Image, live (e.g. C:\Windows) and offline (e.g. D:\Windows, mounted VHD etc) editing *no capturing.
  * Pending Changes Overview.
- 
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/199430788-8c733b76-510a-48fc-9dac-55e3f327d2fd.png">
   <br />
@@ -429,14 +346,14 @@ There’s already a way to remove the Windows 11 watermark. It’s important to 
 [MSEdgeRedirect](https://github.com/rcmaehl/MSEdgeRedirect) is a tool that redirects News, Search, Widgets, Weather and more to Your Default Browser of choice in Windows 11.
 
 [AltSnap](https://github.com/RamonUnch/AltSnap) is a maintained continuation of [Stefan Sundin's AltDrag](https://stefansundin.github.io/altdrag/). It allows you to move and resize windows by using the Alt key and clicking wherever on the window instead of relying on very precise clicking. This behavior is very common on Linux distributions and is not actually hard to implement on Windows.
-   
-[Twinkle Tray](https://twinkletray.com/) is a tool that lets you easily manage the brightness levels of multiple monitors. This app adds a new icon into your system tray, where you can click to have instant access to the brightness levels of all compatible monitors. 
+
+[Twinkle Tray](https://twinkletray.com/) is a tool that lets you easily manage the brightness levels of multiple monitors. This app adds a new icon into your system tray, where you can click to have instant access to the brightness levels of all compatible monitors.
 
 [Microsoft PowerToys](https://docs.microsoft.com/en-us/windows/powertoys/) is a set of utilities for power users to tune and streamline their Windows 10 experience for greater productivity. To get more information on [PowerToys](https://docs.microsoft.com/windows/powertoys/), or any other tools and resources for [Windows development environments](https://docs.microsoft.com/windows/dev-environment/overview), go to [docs.microsoft.com](https://docs.microsoft.com/windows/powertoys/).
 
 [WPF UI](https://github.com/lepoco/wpfui) is a tool that prvides a simple way to make your application written in WPF keep up with modern design trends. Library changes the base elements like Page, ToggleButton or List, and also includes additional controls like Navigation, NumberBox, Dialog or Snackbar.
 
-[Windows 11 Drag & Drop to the Taskbar (Fix)](https://github.com/HerMajestyDrMona/Windows11DragAndDropToTaskbarFix) is a program that fixes the missing "Drag & Drop to the Taskbar" support in Windows 11. It works with the new Windows 11 taskbar and does not require nasty changes like UndockingDisabled or restoration of the classic taskbar. 
+[Windows 11 Drag & Drop to the Taskbar (Fix)](https://github.com/HerMajestyDrMona/Windows11DragAndDropToTaskbarFix) is a program that fixes the missing "Drag & Drop to the Taskbar" support in Windows 11. It works with the new Windows 11 taskbar and does not require nasty changes like UndockingDisabled or restoration of the classic taskbar.
 
 [ConfigureDefender](https://github.com/AndyFul/ConfigureDefender) is a small utility for configuring Windows 10/11 (and Windows Server) built-in Defender Anti-Virus settings. It is a part of Hard_Configurator project (including source files), but it can be used as a standalone application (portable).
 
@@ -444,13 +361,13 @@ There’s already a way to remove the Windows 11 watermark. It’s important to 
 
 [Winaero Tweaker](https://winaero.com/winaero-tweaker/) is an all-in-one application that comes with dozens of options for fine-grained tuning of various Windows settings and features.
 
-[QTTab Bar](https://indiff.github.io/qttabbar/) is a simple utility that will enable you to operate files and folders like tab browser folder grouping, and histories for Windows Explorer in Windows 10/11. 
+[QTTab Bar](https://indiff.github.io/qttabbar/) is a simple utility that will enable you to operate files and folders like tab browser folder grouping, and histories for Windows Explorer in Windows 10/11.
 
 [Ear Trumpet](https://eartrumpet.app/) is a powerful volume control app for Windows 10/11 providing a system tray utility that gives you volume levels for every app and the ability to set custom inputs and outputs for those apps.
 
-[Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine/) (£2.99) is a tool enables you to use live wallpapers on your Windows desktop. Various types of animated wallpapers are supported, including 3D and 2D animations, websites, videos and even certain applications. 
+[Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine/) (£2.99) is a tool enables you to use live wallpapers on your Windows desktop. Various types of animated wallpapers are supported, including 3D and 2D animations, websites, videos and even certain applications.
 
-[Lively Wallpaper](https://rocksdanister.github.io/lively/) is a Windows application designed to turn GIFs, games, and videos into animated wallpapers. 
+[Lively Wallpaper](https://rocksdanister.github.io/lively/) is a Windows application designed to turn GIFs, games, and videos into animated wallpapers.
 
 ## Installing drivers for Windows, AMD, and NVIDIA
 [Back to the Top](#table-of-contents)
@@ -466,14 +383,14 @@ There’s already a way to remove the Windows 11 watermark. It’s important to 
   Snappy Driver Installer(SDI) Origin
 </p>
 
-[Download Display Driver Uninstaller(DDU)](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) is a driver removal utility that can help you completely uninstall AMD/NVIDIA graphics card drivers and packages from your system, without leaving leftovers behind (including registry keys, folders and files, driver store). 
+[Download Display Driver Uninstaller(DDU)](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) is a driver removal utility that can help you completely uninstall AMD/NVIDIA graphics card drivers and packages from your system, without leaving leftovers behind (including registry keys, folders and files, driver store).
 
 **Recommended usage:**
 
   * The tool can be used in Normal mode but for absolute stability when using DDU, Safemode is always the best.
   * Make a backup or a system restore (but it should normally be pretty safe).
   * It is best to exclude the DDU folder completely from any security software to avoid issues.
-  
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/193400130-34f1f713-e471-4e3c-a10f-2eec2465e7f1.png">
   <br />
@@ -496,32 +413,32 @@ There’s already a way to remove the Windows 11 watermark. It’s important to 
   NVCleanstall UI
 </p>
 
-[EVGA PrecisionX1](https://www.evga.com/precisionx1/) is a software that allows you to fine tune your NVIDIA graphics card, including GPU Clock Offsets, Memory Clock Offsets, Fan Speed, voltage and much more. 
+[EVGA PrecisionX1](https://www.evga.com/precisionx1/) is a software that allows you to fine tune your NVIDIA graphics card, including GPU Clock Offsets, Memory Clock Offsets, Fan Speed, voltage and much more.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/200516181-aa7d5033-7f45-47a9-a8ae-de9a1067955b.png">
 </p>
-    
 
-### AMD 
+
+### AMD
  [Back to the Top](#table-of-contents)
- 
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/190588167-4fd0bd50-cd43-47f1-b28f-16f70a243549.png">
   <br />
 </p>
 
-[Precision Boost 2](https://www.amd.com/en/support/kb/faq/cpu-pb2) is a performance-maximizing technology available will work with the Ryzen 5000 or newer AMD processors improving your PC's performance by raising clockspeeds, which makes the processor and your applications run faster. This technology will not be applied retroactively to previous-gen models, like Ryzen 3000 chips. You'll need either a 500-series or 400-series motherboard and a new BIOS based on version 1.1.8.0 AGESA. 
- 
+[Precision Boost 2](https://www.amd.com/en/support/kb/faq/cpu-pb2) is a performance-maximizing technology available will work with the Ryzen 5000 or newer AMD processors improving your PC's performance by raising clockspeeds, which makes the processor and your applications run faster. This technology will not be applied retroactively to previous-gen models, like Ryzen 3000 chips. You'll need either a 500-series or 400-series motherboard and a new BIOS based on version 1.1.8.0 AGESA.
+
 * **[AMD FidelityFX Super Resolution (FSR)](https://www.amd.com/en/technologies/radeon-software-fidelityfx)** is an open source, high-quality solution for producing high resolution frames from lower resolution inputs. FSR enables “practical performance” for costly render operations, such as hardware ray tracing for the AMD RDNA™ and AMD RDNA™ 2 architectures.
 
 * **[AMD FidelityFX Super Resolution (FSR) 2.0](https://github.com/GPUOpen-Effects/FidelityFX-FSR2)** is an open source, high-quality solution for producing high resolution frames from lower resolution inputs. It uses temporal data and optimized anti-aliasing to boost framerates in supported games while delivering similar or better image quality than native resolution.
 
 * **[FidelityFX Super Resolution 3 (FSR 3)](https://www.amd.com/en/technologies/fidelityfx-super-resolution)**, is the latest version of the company’s upscaling tech. AMD claims it’ll provide 2x times increase in frame rate over FSR 2, boosted by the new AMD Fluid Motion Frames technology.
 
-* **[AMD Open Source Driver for Vulkan®](https://github.com/GPUOpen-Drivers/AMDVLK)** is an open-source Vulkan driver for Radeon™ graphics adapters on Linux®. It is built on top of AMD's Platform Abstraction Library (PAL), a shared component that is designed to encapsulate certain hardware and OS-specific programming details for many of AMD's 3D and compute drivers. 
+* **[AMD Open Source Driver for Vulkan®](https://github.com/GPUOpen-Drivers/AMDVLK)** is an open-source Vulkan driver for Radeon™ graphics adapters on Linux®. It is built on top of AMD's Platform Abstraction Library (PAL), a shared component that is designed to encapsulate certain hardware and OS-specific programming details for many of AMD's 3D and compute drivers.
 
-* **[Vulkan® Memory Allocator (VMA)](https://gpuopen.com/vulkan-memory-allocator/)** is a library provides a simple and easy to integrate API to help you allocate memory for Vulkan® buffer and image storage. 
+* **[Vulkan® Memory Allocator (VMA)](https://gpuopen.com/vulkan-memory-allocator/)** is a library provides a simple and easy to integrate API to help you allocate memory for Vulkan® buffer and image storage.
 
 * **[Radeon™ Raytracing Analyzer (RRA)](https://gpuopen.com/radeon-raytracing-analyzer/)** is a tool that investigates the performance of your raytracing applications and highlight potential bottlenecks.
 
@@ -539,8 +456,8 @@ There’s already a way to remove the Windows 11 watermark. It’s important to 
   Radeon™ Memory Visualizer (RMV)
 </p>
 
-[Hydra 1.2]() is a AMD Ryzen tuning and overclocking utility which adds support for Zen 4 CPUs & also allows GPU tuning as an additional component to the suite. It's developed and maintained by [Yuri Bubliy](https://twitter.com/1usmus) aka 1usmus. To get [early access Hydra 1.2 and Hydra Pro 1.2](https://www.patreon.com/1usmus). 
-  
+[Hydra 1.2]() is a AMD Ryzen tuning and overclocking utility which adds support for Zen 4 CPUs & also allows GPU tuning as an additional component to the suite. It's developed and maintained by [Yuri Bubliy](https://twitter.com/1usmus) aka 1usmus. To get [early access Hydra 1.2 and Hydra Pro 1.2](https://www.patreon.com/1usmus).
+
     * Complete redesign of all features.
     * New Curve Optimizer diagnostics (and for Zen 4).
     * More flexibility for AMD PBO2 and HYBRID OC.
@@ -548,7 +465,7 @@ There’s already a way to remove the Windows 11 watermark. It’s important to 
     * Auto GPU tuning.
     * Unlimited GPU profiling.
     * Powerful new monitoring.
-    
+
 <p align="center">
  <img src="">
 </p>
@@ -584,7 +501,7 @@ There’s already a way to remove the Windows 11 watermark. It’s important to 
 </p>
 
 [Intel® Graphics Driver 31.0.101.3430 for Intel® Arc™ A-Series Graphics.](https://www.intel.com/content/www/us/en/download/726609/intel-arc-graphics-windows-dch-driver.html)
-   
+
    * [Intel® Arc™ A770M Graphics](https://www.intel.com/content/www/us/en/products/sku/228341/intel-arc-a770m-graphics/downloads.html)
    * [Intel® Arc™ A550M Graphics](https://www.intel.com/content/www/us/en/products/sku/228343/intel-arc-a550m-graphics/downloads.html)
    * [Intel® Arc™ A380 Graphics](https://www.intel.com/content/www/us/en/products/sku/227959/intel-arc-a380-graphics/downloads.html)
@@ -615,14 +532,14 @@ There’s already a way to remove the Windows 11 watermark. It’s important to 
    * [Intel® Core™ i7-1280P Processor (24M Cache, up to 4.80 GHz)](https://www.intel.com/content/www/us/en/products/sku/226253/intel-core-i7-1280p-processor-24m-cache-up-to-4-80-ghz/downloads.html)
    * [Intel® Core™ i7-1260P Processor (18M Cache, up to 4.70 GHz)](https://www.intel.com/content/www/us/en/products/sku/226254/intel-core-i7-1260p-processor-18m-cache-up-to-4-70-ghz/downloads.html)
    * [Intel® Core™ i7-1270P Processor (18M Cache, up to 4.80 GHz)](https://www.intel.com/content/www/us/en/products/sku/226255/intel-core-i7-1270p-processor-18m-cache-up-to-4-80-ghz/downloads.html)
-   
-   
+
+
 [Intel® Arc™ Pro Graphics Windows* DCH Driver](https://www.intel.com/content/www/us/en/download/741626/intel-arc-pro-graphics-windows-dch-driver.html?wapkw=intel%20arc)
-   
+
     * [Intel® Arc™ Pro A50 Graphics](https://www.intel.com/content/www/us/en/products/sku/230316/intel-arc-pro-a50-graphics/downloads.html)
     * [Intel® Arc™ Pro A40 Graphics](https://www.intel.com/content/www/us/en/products/sku/230317/intel-arc-pro-a40-graphics/downloads.html)
     * [Intel® Arc™ Pro A30M Graphics](https://www.intel.com/content/www/us/en/products/sku/216962/intel-arc-pro-a30m-graphics/downloads.html)
-    
+
 [Intel Xe Super Sampling (XeSS)](https://www.intel.com/content/www/us/en/products/docs/arc-discrete-graphics/xess.html) is a temporal image upscaling AI rendering technology that increases graphics performance similar to [NVIDIA's DLSS (Deep Learning Super Sampling)](https://developer.nvidia.com/dlss). Intel's Arc GPU architecture (Fall 2022) will have GPUs that feature dedicated Xe-cores to run XeSS. The GPUs will have Xe Matrix eXtenstions matrix (XMX) engines for hardware-accelerated AI processing. XeSS will be able to run on devices without XMX, including integrated graphics, though, the performance of XeSS will be lower on non-Intel graphics cards because it will be powered by [DP4a instruction](https://www.intel.com/content/dam/www/public/us/en/documents/reference-guides/11th-gen-quick-reference-guide.pdf).
 
 * [ Intel XeSS ML Upscaling | The Digital Foundry Tech Review | XeSS vs DLSS vs Native](https://www.youtube.com/watch?v=rfLwZy650s0)
@@ -638,7 +555,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 ### Gaming Peripherals
 [Back to the Top](#table-of-contents)
 
-[OpenRGB](https://openrgb.org/) is an open source RGB lighting control tool that doesn't depend on manufacturer software.  This includes ASUS Aura, ASRock, Corsair, G.Skill, Gigabyte, HyperX, MSI, Razer Synapse, ThermalTake, RGB Fusion, iCue, Mystic Light, Alienware AlienFX, Logitech G Hub, and any other RGB app. OpenRGB has support for Windows, Linux, MacOS(Apple Silicon ARM64 and Intel). 
+[OpenRGB](https://openrgb.org/) is an open source RGB lighting control tool that doesn't depend on manufacturer software.  This includes ASUS Aura, ASRock, Corsair, G.Skill, Gigabyte, HyperX, MSI, Razer Synapse, ThermalTake, RGB Fusion, iCue, Mystic Light, Alienware AlienFX, Logitech G Hub, and any other RGB app. OpenRGB has support for Windows, Linux, MacOS(Apple Silicon ARM64 and Intel).
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/158273200-4a3f733c-73b3-4353-b4f0-90e787ea178a.PNG">
@@ -650,7 +567,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
 
 ## Microsoft Office Alternatives
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 [OnlyOffice](https://www.onlyoffice.com/) is a secure offline/online office suite highly compatible with MS Office formats  for Windows, Mac and Linux.
 
@@ -678,7 +595,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
 
 ## Secure & Privacy Focused Web Browsers
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 [Mozilla Firefox](https://www.mozilla.org/firefox/) is a free and open-source web browser developed by the Mozilla Foundation.
 
@@ -742,7 +659,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
  * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
  * [Chrome extension](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)
 
-[DuckDuckGo Privacy Essentials](https://duckduckgo.com/app) is an extension that seamlessly helps prevent your personal information from being exposed during everyday online activity. 
+[DuckDuckGo Privacy Essentials](https://duckduckgo.com/app) is an extension that seamlessly helps prevent your personal information from being exposed during everyday online activity.
 
  * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/)
  * [Chrome extension](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?hl=fr)
@@ -762,7 +679,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
  * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
  * [Chrome extension](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/)
 
-**PixelBlock** is an Gmail extension that blocks email tracking attempts used to detect when you open and read emails. 
+**PixelBlock** is an Gmail extension that blocks email tracking attempts used to detect when you open and read emails.
 
  * [Chrome extension](https://chrome.google.com/webstore/detail/pixelblock/jmpmfcjnflbcoidlgapblgpgbilinlem/)
 
@@ -872,8 +789,8 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
  * [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist) is a curated checklist of 300+ tips for protecting digital security and privacy in 2022.
 
- * [Awesome Privacy](https://github.com/Lissy93/awesome-privacy) is acurated list of privacy & security-focused software and services. 
- 
+ * [Awesome Privacy](https://github.com/Lissy93/awesome-privacy) is acurated list of privacy & security-focused software and services.
+
  * [Cover Your Tracks AKA Panopticlick](https://coveryourtracks.eff.org/) is a web tool developed by the Electronic Frontier Foundation (EFF) that tests your browser to see how well you are protected from tracking and fingerprinting.
 
 [Sysinternals Suite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite) is the entire set of Sysinternals Utilities rolled up into a single download. Also, checkout the [Sysinternals Utilities Index](https://docs.microsoft.com/en-us/sysinternals/downloads/).
@@ -881,14 +798,14 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 [Microsoft Security Compliance Toolkit (SCT) 1.0](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-security-configuration-framework/security-compliance-toolkit-10) is a set of tools that allows enterprise security administrators to download, analyze, test, edit, and store Microsoft-recommended security configuration baselines for Windows and other Microsoft products. Also checkout [Microsoft Security Baselines](https://techcommunity.microsoft.com/t5/microsoft-security-baselines/new-amp-updated-security-tools/ba-p/1631613).
 
  - [Microsoft recommended block rules](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules)
- 
+
  - [Windows Server Security documentation](https://docs.microsoft.com/en-us/windows-server/security/security-and-assurance)
 
 [PingCastle](https://www.pingcastle.com/) is a tool to check the security of [Active Directory](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview).
 
 [ConfigureDefender](https://github.com/AndyFul/ConfigureDefender) is a small GUI application to view and configure important Defender settings on Windows 10/11 and Windows Server 2019 or later. It uses [PowerShell cmdlets](https://docs.microsoft.com/en-us/powershell/scripting/developer/cmdlet/cmdlet-overview) (with a few exceptions) to change the Windows Defender settings.
 
-[Hardentools](https://github.com/securitywithoutborders/hardentools) is designed to disable a number of "features" exposed by operating systems (Microsoft Windows, for now) and some widely used applications (Microsoft Office and Adobe PDF Reader, for now). These features, commonly thought for enterprise customers, are generally useless to regular users and rather pose as dangers as they are very commonly abused by attackers to execute malicious code on a victim's computer. 
+[Hardentools](https://github.com/securitywithoutborders/hardentools) is designed to disable a number of "features" exposed by operating systems (Microsoft Windows, for now) and some widely used applications (Microsoft Office and Adobe PDF Reader, for now). These features, commonly thought for enterprise customers, are generally useless to regular users and rather pose as dangers as they are very commonly abused by attackers to execute malicious code on a victim's computer.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/179671248-1546acd4-9c92-4daa-962f-f262b2d08f2b.png">
@@ -920,7 +837,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
 [BitLocker Drive Encryption](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview) is a data protection feature that integrates with the Windows operating system and addresses the threats of data theft or exposure from lost, stolen, or inappropriately decommissioned computers. BitLocker provides the most protection when used with a Trusted Platform Module (TPM) version 1.2 or later.
 
-[Folder Lock](https://www.newsoftwares.net/folderlock/) is an encryption tool that can Lock and Hide files and folders within seconds. It enables you to Password Protect and restricts the unwanted eyes from viewing files, folders and drives. 
+[Folder Lock](https://www.newsoftwares.net/folderlock/) is an encryption tool that can Lock and Hide files and folders within seconds. It enables you to Password Protect and restricts the unwanted eyes from viewing files, folders and drives.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/187567416-46dc4eb7-0217-4010-9509-c4e826784128.png">
@@ -936,7 +853,7 @@ Intel ARC GPUs Overview. Credit: [Intel](https://www.intel.com/content/www/us/en
 
 ## Manage/Control Fans
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 [Fan Control](https://github.com/Rem0o/FanControl.Releases) is a highly customizable fan controlling software for Windows
 
@@ -956,13 +873,13 @@ Fan Control main UI
 MSI Afterburner UI
 </p>
 
-## Storage Disk Health/Data Recovery 
+## Storage Disk Health/Data Recovery
 
 [Back to the Top](#table-of-contents)
 
 [DiskMon](https://docs.microsoft.com/en-us/sysinternals/downloads/diskmon) is an application that logs and displays all hard disk activity on a Windows system.
 
-[Disk Drill](https://www.cleverfiles.com/data-recovery-software.html) is a Data Recovery Software that recover any type of deleted files in Windows including Office documents, messages, and media files quickly and easily. Disk Drill for Windows is free data recovery software that restores deleted files from an HDD, USB drive or any kind of disk-based storage media. 
+[Disk Drill](https://www.cleverfiles.com/data-recovery-software.html) is a Data Recovery Software that recover any type of deleted files in Windows including Office documents, messages, and media files quickly and easily. Disk Drill for Windows is free data recovery software that restores deleted files from an HDD, USB drive or any kind of disk-based storage media.
 
 [Scrutiny](https://github.com/AnalogJ/scrutiny) is a WebUI tool for smartd [S.M.A.R.T monitoring](https://www.crucial.com/articles/about-ssd/smart-and-ssds), Historical Trends & Real World Failure Thresholds.
 
@@ -979,7 +896,7 @@ Scrutiny UI
 
 ### Powercfg Battery Report
 
-[Powercfg](https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/powercfg-command-line-options) is a tool built-in to Windows that generates detailed report on battery health of your Windows device. 
+[Powercfg](https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/powercfg-command-line-options) is a tool built-in to Windows that generates detailed report on battery health of your Windows device.
 
 To generate a battery report, **press Windows Key + X and select Command Prompt**. Then type in **powercfg /batteryreport**. This command saves a battery report in HTML format to
 
@@ -988,13 +905,13 @@ To generate a battery report, **press Windows Key + X and select Command Prompt*
 Open the file in your browser and check the following parameters:
 
   * The difference between Design Capacity and Full Charge Capacity. As batteries wear over time, the full charge capacity will be less than the design capacity.
-  
+
   * Battery capacity drained over the last few days in different power states. Also, check out the battery usage graph.
-  
+
   * Compare the battery life from the time you purchased the laptop and see the trends of Full Charge Capacity in relation to Design Capacity.
-  
+
   * Check the battery’s usage and duration. And the time your computer ran on battery or plugged into the power outlet.
-  
+
 ### Microsys Smarter Battery
 
 [Smarter Battery](https://www.microsys.ro/smarterbattery.htm) is a battery monitoring utility for portable computers, intended to provide all the data of your battery, to help prolong its life and save its energy. It shows you the evolution of the battery's capacity during the charge / discharge cycles and computes a few important battery parameters, such as the wear level and discharge cycles count.
@@ -1008,7 +925,7 @@ Open the file in your browser and check the following parameters:
 
 # Getting Software
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 [Windows Package Manager](https://docs.microsoft.com/en-us/windows/package-manager/) is a comprehensive [package manager solution](https://docs.microsoft.com/en-us/windows/package-manager/#understanding-package-managers) that consists of a command line tool and set of services for installing applications on Windows 10. Developers can use the winget command line tool to discover, install, upgrade, remove and configure a curated set of applications. After it is installed, developers can access winget via the [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/), [PowerShell](https://docs.microsoft.com/en-us/powershell/), or the Command Prompt.
 
@@ -1066,7 +983,7 @@ Open the file in your browser and check the following parameters:
 
 # Gaming
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 ## DirectStorage
 
@@ -1077,35 +994,35 @@ Open the file in your browser and check the following parameters:
  * [Microsoft DirectStorage GitHub](https://github.com/microsoft/DirectStorage)
  * [DirectStorage on Windows Samples](https://github.com/microsoft/DirectStorage/blob/main/README.md)
  * [DirectStorage API Downloads](https://devblogs.microsoft.com/directx/directstorage-api-downloads/)
- 
+
  New features for DirectStorage 1.1:
- 
+
  * GPU decompression and GDeflate now available.
  * Added EnqueueSetEvent to use Win32 event objects for completion notification.
  * [Performance improvements and bug fixes.](https://devblogs.microsoft.com/directx/directstorage-api-downloads/)
-    
-**GPU decompression** is supported on all DirectX 12 + Shader Model 6.0 GPUs. However, one of the benefits of DirectStorage 1.1 is that GPU hardware vendors can provide additional optimizations for their hardware, called metacommands. 
+
+**GPU decompression** is supported on all DirectX 12 + Shader Model 6.0 GPUs. However, one of the benefits of DirectStorage 1.1 is that GPU hardware vendors can provide additional optimizations for their hardware, called metacommands.
 
  * **AMD:** https://gpuopen.com/amd-support-for-microsoft-directstorage-1-1
 
  * **Intel:** https://www.intel.com/content/www/us/en/developer/articles/news/directstorage-on-intel-gpus.html
 
  * **NVIDIA:** https://developer.nvidia.com/blog/accelerating-load-times-for-directx-games-and-apps-with-gdeflate-for-directstorage/
- 
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/206659588-6d0cb0a1-7d7f-4198-b2fd-c5a612ec3189.png">
   </br>
 
 </p>
- 
+
  Data flow for decompressing to a GPU resource. Image Credit: [Microsoft](https://devblogs.microsoft.com/directx/directstorage-1-1-now-available/)
- 
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/206659590-fa102043-e3c6-46db-b3a4-9122234948c4.png">
   </br>
 
 </p>
- 
+
  PIX timing capture showing DirectStorage reading and decompressing 1.4GiB of data. Image Credit: [Microsoft](https://devblogs.microsoft.com/directx/directstorage-1-1-now-available/)
 
 ## Setting up OBS Studio
@@ -1118,20 +1035,20 @@ Open the file in your browser and check the following parameters:
 </p>
 
 [OBS (Open Broadcaster Software)](https://obsproject.com/) is free and open source software for video recording and live streaming. Stream to Twitch, YouTube and many other providers or record your own videos with high quality H264 / AAC encoding. Starting with [OBS Studio version 28](https://projectobs.com/en/news/obs-studio-28-0/) it will feature 10-bit and HDR video encode support for [AV1](https://aomedia.org/av1-features/) and [HEVC](https://apps.apple.com/us/app/hevc/id768692338), improved AMD encoding on Windows, [NVIDIA RTX software](https://blogs.nvidia.com/blog/2022/08/31/in-the-nvidia-studio-august-31/) integration, a new default theme, and many other changes.
- 
+
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/185704748-217443ac-57e3-4ab3-ba74-6d09c2fe62fb.png">
   <br />
   OBS Studio
 </p>
- 
+
  ### Useful OBS Studio 3rd party plugins and themes.
- 
+
   * **[OBS Studio Themes](https://obsproject.com/forum/resources/categories/themes.10/)**
- 
+
   * **[touch portal icon packs](https://www.touch-portal.com/assetsdb/show-all.php?cat=i)**
- 
-  * **[Streamlink](https://streamlink.github.io/)** is a CLI utility which pipes video streams from various services into a video player, such as VLC.  
+
+  * **[Streamlink](https://streamlink.github.io/)** is a CLI utility which pipes video streams from various services into a video player, such as VLC.
 
   * **[Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher)** plugin; an automated scene switcher.
   * **[Audio Pan](https://github.com/norihiro/obs-audio-pan-filter)** plugin; control stereo pan of audio source.
@@ -1148,7 +1065,7 @@ Open the file in your browser and check the following parameters:
   * **[NvFBC](https://gitlab.com/fzwoch/obs-nvfbc)** plugin; screen capture via NVIDIA FBC API. Requires [NvFBC patches for Nvidia drivers](https://github.com/keylase/nvidia-patch) for consumer grade GPUs.
   * **[Soundboard](https://github.com/cg2121/obs-soundboard)** plugin; adds a soundboard dock.
   * **[Source Copy](https://github.com/exeldro/obs-source-copy)** plugin; adds copy and paste options to the tools menu.
-  * **[Source Dock](https://github.com/exeldro/obs-source-dock)** plugin; create a Dock for a source, which lets you see audio levels, change volume and control media. 
+  * **[Source Dock](https://github.com/exeldro/obs-source-dock)** plugin; create a Dock for a source, which lets you see audio levels, change volume and control media.
   * **[Recursion Effect](https://github.com/exeldro/obs-recursion-effect)** plugin; recursion effect filter.
   * **[Replay Source](https://github.com/exeldro/obs-replay-source)** plugin; slow motion replay async sources from memory.
   * **[RGB Levels](https://github.com/petrifiedpenguin/obs-rgb-levels-filter)** plugin; simple filter to adjust RGB levels.
@@ -1168,7 +1085,7 @@ Open the file in your browser and check the following parameters:
   * **[Virtual Cam Filter](https://github.com/exeldro/obs-virtual-cam-filter)** plugin; make sources available to the virtual camera via a filter
   * **[VNC Source](https://github.com/norihiro/obs-vnc)** plugin; VNC viewer that works as a source.
   * **[Websockets](https://github.com/Palakis/obs-websocket)** plugin; remote-control OBS Studio through WebSockets, compatible with [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).
-  
+
 ## Discord
 
 [Back to the Top](#table-of-contents)
@@ -1230,7 +1147,7 @@ Nintendo Switch Pro Controller
 </p>
 
 ## Steam
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 [Get Steam](https://store.steampowered.com/about/)
 
@@ -1245,7 +1162,7 @@ Nintendo Switch Pro Controller
  ## Epic Games Store
 [Back to the Top](#table-of-contents)
 
-[Heroic Game Launcher](https://heroicgameslauncher.com/) is an Open Source Game Launcher for Linux, Windows and MacOS (for both Native and Windows Games using Crossover). It supports launching games from the Epic Games Store using Legendary, a CLI alternative to the Epic Games Launcher. 
+[Heroic Game Launcher](https://heroicgameslauncher.com/) is an Open Source Game Launcher for Linux, Windows and MacOS (for both Native and Windows Games using Crossover). It supports launching games from the Epic Games Store using Legendary, a CLI alternative to the Epic Games Launcher.
 
 [Epic Games Store](https://www.epicgames.com/store/) is a digital video game storefront for Microsoft Windows and macOS, operated by Epic Games.
 
@@ -1274,7 +1191,7 @@ Nintendo Switch Pro Controller
 </p>
 
 ## Game Streaming
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 [Xbox Project xCloud](https://www.xbox.com/en-US/xbox-game-streaming/project-xcloud) is Microsoft's cloud-based Xbox game-streaming technology. **Play games like Forza Horizon 4, Halo 5: Guardians, Gears of War 4, Sea of Thieves, Cuphead, Red Dead Redemption 2, and 100+ other games on your mobile device or Chrome web browser**. Microsoft's Xbox Project xCloud does require an [Xbox Game Pass Ultimate](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming) subscription.
 
@@ -1290,7 +1207,7 @@ Nintendo Switch Pro Controller
 <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
 </p>
 
-[PlayStation Remote Play](https://www.playstation.com/en-us/support/games/playstation-remote-play-on-pc-and-mac/) is a feature available on all PS4 and PS5 consoles that let's you control your PlayStation® console remotely wherever you have a high-speed internet connection. 
+[PlayStation Remote Play](https://www.playstation.com/en-us/support/games/playstation-remote-play-on-pc-and-mac/) is a feature available on all PS4 and PS5 consoles that let's you control your PlayStation® console remotely wherever you have a high-speed internet connection.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/172946885-27f83bdf-ab1a-4eaa-ad33-0e108f92a981.png">
@@ -1317,7 +1234,7 @@ Nintendo Switch Pro Controller
 </p>
 
 ## Game Emulators
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 [EmulationStation Desktop Edition (ES-DE)](https://www.es-de.org/) is a frontend application for browsing and launching games from your multi-platform game collection. It's  available for Unix/Linux, macOS(M1 & Intel) and Windows.
 
@@ -1334,17 +1251,17 @@ Nintendo Switch Pro Controller
 
 [Citra](https://citra-emu.org/) is an open-source emulator for the Nintendo 3DS capable of playing many of your favorite games.
 
-[yuzu](https://yuzu-emu.org) is an experimental open-source emulator for the Nintendo Switch from the creators of Citra. 
+[yuzu](https://yuzu-emu.org) is an experimental open-source emulator for the Nintendo Switch from the creators of Citra.
 
-[m64p](https://m64p.github.io/) is a Nintendo 64 Emulator. It uses mupen64plus-gui, a brand new mupen64plus frontend written in Qt5. It supports all of the things you’d expect from a frontend (savestate management, pausing, screenshots). 
+[m64p](https://m64p.github.io/) is a Nintendo 64 Emulator. It uses mupen64plus-gui, a brand new mupen64plus frontend written in Qt5. It supports all of the things you’d expect from a frontend (savestate management, pausing, screenshots).
 
 [DeSmuME](https://desmume.org/) is a Nintendo DS emulator.
 
-[Snes9x](https://www.snes9x.com/) is a portable, freeware Super Nintendo Entertainment System (SNES) emulator. 
+[Snes9x](https://www.snes9x.com/) is a portable, freeware Super Nintendo Entertainment System (SNES) emulator.
 
-[bsnes](https://github.com/bsnes-emu/bsnes) is a Super Nintendo (SNES) emulator focused on performance, features, and ease of use. 
+[bsnes](https://github.com/bsnes-emu/bsnes) is a Super Nintendo (SNES) emulator focused on performance, features, and ease of use.
 
-[mGBA](https://mgba.io/) is a new emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack. 
+[mGBA](https://mgba.io/) is a new emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack.
 
 [DOSBox](https://www.dosbox.com/) is an open-source DOS emulator which primarily focuses on running DOS Games.
 
@@ -1363,7 +1280,7 @@ Nintendo Switch Pro Controller
 [Xenia](https://github.com/xenia-project/xenia) is an Xbox 360 Emulator.
 
 **Also checkout these subreddits for more great Game Emulators recommendations**
-  
+
    - [r/emulation](https://www.reddit.com/r/emulation/)
    - [r/emulations](https://www.reddit.com/r/emulators/)
    - [r/RetroArch](https://www.reddit.com/r/RetroArch/)
@@ -1378,7 +1295,7 @@ Nintendo Switch Pro Controller
 
 
 ## Performance Benchmarks
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 [Geekbench 5](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
 
@@ -1390,9 +1307,9 @@ Nintendo Switch Pro Controller
 
 ## Windows Subsystem for Android (WSA)
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
-[Windows Subsystem for Android (WSA)](https://docs.microsoft.com/en-us/windows/android/wsa/) is a tool that allows your device to run Android apps natively in Windows 11. This article explains how to set up WSA in Windows 11 to Run Android Apps. WSA runs as a virtual machine using [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/) and is based on [AOSP](https://source.android.com/) version 11. 
+[Windows Subsystem for Android (WSA)](https://docs.microsoft.com/en-us/windows/android/wsa/) is a tool that allows your device to run Android apps natively in Windows 11. This article explains how to set up WSA in Windows 11 to Run Android Apps. WSA runs as a virtual machine using [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/) and is based on [AOSP](https://source.android.com/) version 11.
 
 As of now, WSA has some specific requirements. With time, some pre-requisites like Region would be eased. See the following requirements below:
 
@@ -1412,10 +1329,10 @@ As of now, WSA has some specific requirements. With time, some pre-requisites li
  <img src="https://user-images.githubusercontent.com/45159366/167318108-d9cbaae2-d247-4fe5-ba8f-86b288afe151.png">
 </p>
 
-   
+
 ### Getting started with Windows Subsystem for Android
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
    - Open the Amazon App store from this [link](http://aka.ms/AmazonAppstore).
 
@@ -1433,7 +1350,7 @@ As of now, WSA has some specific requirements. With time, some pre-requisites li
 
 ### Windows Subsystem for Android Settings
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 There are also a bunch of Android Settings you can customize as well, which are as under.
 
@@ -1442,7 +1359,7 @@ There are also a bunch of Android Settings you can customize as well, which are 
  - Subsystem Screen reader helps accessibility wise, like screen reading on in Android apps you plan to run.
 
  - Developer mode helps you to sideload an APK file manually using ADB.Checkout this [YouTube video](https://www.youtube.com/watch?v=2_LxsWa7JIg).
- 
+
  - If the Subsystem is selected As needed, no resources are used in the Background, so as a result, apps open slowly. If a continuous option is selected, resources continue to be used in the Background, and Apps open quickly.
 
 <p align="center">
@@ -1450,9 +1367,9 @@ There are also a bunch of Android Settings you can customize as well, which are 
 </p>
 
 ### WSA Toolbox
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
-[WSA Toolbox](https://github.com/voletro/wsa-toolbox) is a Windows 11 application to easily install and use the Windows Subsystem For Android™ package on your computer. 
+[WSA Toolbox](https://github.com/voletro/wsa-toolbox) is a Windows 11 application to easily install and use the Windows Subsystem For Android™ package on your computer.
 
 These tools include:
 
@@ -1469,7 +1386,7 @@ These tools include:
 
 # Windows Subsystem for Linux (WSL)
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/146082215-7d80b8b7-4da6-4280-900d-4ce4cd30df7e.png">
@@ -1479,7 +1396,7 @@ These tools include:
 
 
 ## WSL Learning Resources
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 [WSL 2 Linux Kernel on GitHub](https://github.com/microsoft/WSL2-Linux-Kernel) is the source for the Linux kernel used in Windows Subsystem for Linux 2 (WSL2).
 
@@ -1518,7 +1435,7 @@ These tools include:
 [Using Fedora with Microsoft's WSL 2](https://fedoramagazine.org/wsl-fedora-33/)
 
 ## WSL Tools & Projects
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 [wslu](https://github.com/wslutilities/wslu) is a collection of utilities for Windows 10 Linux Subsystem, such as retrieving Windows 10 environment variables or creating your favorite Linux GUI application shortcuts on Windows 10 Desktop.
 
@@ -1552,7 +1469,7 @@ These tools include:
 
 
 ## Setting up WSL Linux Distributions
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 **Requirements**
 
@@ -1636,7 +1553,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 # Windows Terminal
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/143783124-dd11fd52-acd5-4e43-9f0e-e456e2efc303.png">
@@ -1689,8 +1606,8 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 [Learning the Command Line with Online Courses | edX](https://www.edx.org/learn/command-line)
 
-# Visual Studio and VSCode 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+# Visual Studio and VSCode
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/171919431-729ff449-fe7c-499d-8a21-d722a42eb7e5.png">
@@ -1699,7 +1616,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 [Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.
 
-[VSExtensibility](https://github.com/microsoft/VSExtensibility) is a repo for upcoming changes to extensibility in Visual Studio, the new extensibility model, and [Language Server Protocol(LSP)](https://github.com/microsoft/VSExtensibility/blob/main/docs/lsp/lsp-extensions-specifications.md). 
+[VSExtensibility](https://github.com/microsoft/VSExtensibility) is a repo for upcoming changes to extensibility in Visual Studio, the new extensibility model, and [Language Server Protocol(LSP)](https://github.com/microsoft/VSExtensibility/blob/main/docs/lsp/lsp-extensions-specifications.md).
 
 [Visual Studio Documentation](https://docs.microsoft.com/en-us/visualstudio/windows/)
 
@@ -1749,58 +1666,58 @@ VS Code Marketplace
 [Language Server Protocol (LSP)](https://microsoft.github.io/language-server-protocol/) is a tool that defines the protocol used between an editor or IDE and a language server that provides language features like auto complete, go to definition, find all references.
 
 ### Visual Studio Extensions for Developer Productivity
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 **Note:**  [Visual Studio IntelliCode](https://visualstudio.microsoft.com/services/intellicode/) is installed by default with any workload that supports C#, C++, TypeScript/JavaScript, or XAML in Visual Studio 2022.
-  
+
  [Visual Assist](https://marketplace.visualstudio.com/items?itemName=WholeTomatoSoftware.VisualAssist) is a productivity tool for C/C++ and C# that improves IDE features related to navigation, refactoring, code generation, and coding assistance along with specific tooling for UE4/UE5.
-  
+
  [Resharper](https://marketplace.visualstudio.com/items?itemName=JetBrains.ReSharper) is a popular developer productivity extension for Microsoft Visual Studio. It automates most of what can be automated in your coding routines. It finds compiler errors, runtime errors, redundancies, and code smells right as you type, suggesting intelligent corrections for them.
-    
+
  [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) is an extension that provides a collection of extensions that enable real-time collaborative development with VS Live Share.
-    
- [Visual Studio Spell Checker](https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellCheckerVS2022andLater) is an editor extension that checks the spelling of comments, strings, and plain text as you type or interactively with a tool window. It can also spell check an entire solution, project, or selected items. 
-    
+
+ [Visual Studio Spell Checker](https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellCheckerVS2022andLater) is an editor extension that checks the spelling of comments, strings, and plain text as you type or interactively with a tool window. It can also spell check an entire solution, project, or selected items.
+
  [GitHub Extensions for Visual Studio](https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio) is a Visual Studio Extension that brings the GitHub Flow into Visual Studio.
-    
+
  [REST API Client Code Generator](https://marketplace.visualstudio.com/items?itemName=ChristianResmaHelle.ApiClientCodeGenerator) is a collection of Visual Studio C# custom tool code generators for Swagger / OpenAPI specification files.
-    
+
  [Code Maid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid) is an open source Visual Studio extension to cleanup and simplify our C#, C++, F#, VB, PHP, PowerShell, R, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS, JavaScript and TypeScript coding.
-    
+
  [VS Color Output](https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput)  is an extension for Visual Studio. This extension is a color output for build and debug windows.
-    
+
  [Visual Studio Theme Pack](https://marketplace.visualstudio.com/items?itemName=idex.vsthemepack) is a collection of popular themes, now available for Visual Studio.
-    
+
  [Markdown Editor](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2) is afull featured Markdown editor with live preview and syntax highlighting. Supports GitHub flavored Markdown.
-    
+
  [SQLite and SQL Server Compact Toolbox](https://marketplace.visualstudio.com/items?itemName=ErikEJ.SQLServerCompactSQLiteToolbox) is an extension for Visual Studio. This extension adds several features to help your embedded database development efforts: Scripting of tables and data, import from SQL Server and CSV files and much, much more.
- 
+
  [NuGet Package Manager](https://marketplace.visualstudio.com/items?itemName=NuGetTeam.NuGetPackageManager) collection of tools to automate the process of downloading, installing, upgrading, configuring, and removing packages from a VS Project.
-    
- [SlowCheetah](https://marketplace.visualstudio.com/items?itemName=vscps.SlowCheetah-XMLTransforms) is a package allows you to automatically transform your app.config (or any file) when you press F5 in Visual Studio. You can have different transformations based on the build configuration. This will enable you to easily have different app settings, connection strings, etc for Debug versus Release. 
-    
+
+ [SlowCheetah](https://marketplace.visualstudio.com/items?itemName=vscps.SlowCheetah-XMLTransforms) is a package allows you to automatically transform your app.config (or any file) when you press F5 in Visual Studio. You can have different transformations based on the build configuration. This will enable you to easily have different app settings, connection strings, etc for Debug versus Release.
+
  [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2022) is a collection of 500+ analyzers, refactorings and fixes for C#, powered by Roslyn.
-    
+
  [Trailing Whitespace Visualizer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer) is an  extension will highlight and remove any trailing whitespace on any line in any editor in Visual Studio. This makes it really easy to get rid of those annoying invisible characters.
-    
+
  [Magical C# Debugging—OzCode](https://marketplace.visualstudio.com/items?itemName=CodeValueLtd.OzCode) is a must have Visual Studio Extension which cuts down on debugging time and increases productivity by detecting and isolating bugs, making them easy to fix.
-    
+
  [File Icons](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileIcons) is an extension that adds file icons to Solution Explorer for files that Visual Studio doesn't provide icons for.
- 
+
  [Image Optimizer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ImageOptimizer) is an extension that uses industry standard tools to optimize any JPEG, PNG and Gifs - including animated Gifs. It can do both lossy and lossless optimization.
- 
+
  [File Nesting](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileNesting) is an extension that automatically nest files based on file name and enables developers to nest and unnest any file manually.
-      
+
  [NCrunch for Visual Studio](https://marketplace.visualstudio.com/items?itemName=NCrunch.NCrunchforVisualStudio) is an automated parallel continuous testing tool for Visual Studio .NET. It intelligently takes responsibility for running automated tests so that you don't have to, and it gives you a huge amount of useful information about your tests (such as code coverage and performance metrics) inline in your IDE while you work.
-    
- [SideWaffle Template Pack](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.SideWaffleTemplatePack) is an extension that contains both item and project templates suitable for building websites, Windows apps, Windows Phone apps, WPF, Visual Studio extensibilty project and a lot more.  
- 
+
+ [SideWaffle Template Pack](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.SideWaffleTemplatePack) is an extension that contains both item and project templates suitable for building websites, Windows apps, Windows Phone apps, WPF, Visual Studio extensibilty project and a lot more.
+
  [PostSharp](https://marketplace.visualstudio.com/items?itemName=PostSharpTechnologies.PostSharp) is the #1 pattern-aware extension to C# and VB. It allows developers to eradicate boilerplate. Implements some of the most common patterns and gives you the tools to build your own.
-    
+
 
 ### VS Code Extensions for Developer Productivity
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) is a service/ extension that enables you to collaboratively edit and debug with others in real time, regardless of the programming languages you're using or app types you're building. You can instantly and securely share your current project, start a joint debugging session, share terminal instances, forward localhost web apps, have voice calls, and more.
 
@@ -1865,7 +1782,7 @@ VS Code Marketplace
 
 # Game Development
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <h1 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/97361059-45151700-185c-11eb-9d12-dae51c79eb8a.png">
@@ -2009,7 +1926,7 @@ SteamVR Home
 
 # Setting up a macOS workspace
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 ### Docker OSX
 
@@ -2057,7 +1974,7 @@ docker run -it \
 
 # Android Development
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 [Android Studio](https://developer.android.com/studio/) is the development suite for Google's Android Operating System(OS). It's built on [JetBrains IntelliJ IDEA](https://www.jetbrains.com/idea/) software and designed specifically for Android development. It is available for download on Windows, macOS and Linux.
 
@@ -2158,7 +2075,7 @@ Local virtual devices with high performances.
 
 # 3D Graphics and Design
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/97116104-27a74800-16b8-11eb-9556-bdb90ba45ce7.png">
@@ -2282,7 +2199,7 @@ Local virtual devices with high performances.
 
 # Kubernetes
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/95383873-a884d800-08a0-11eb-8eaf-57af5b119f56.png">
@@ -2413,7 +2330,7 @@ Local virtual devices with high performances.
 
 # Machine Learning
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <img src="https://user-images.githubusercontent.com/45159366/108111395-756e0480-7049-11eb-85ca-b87315e9d3ef.jpeg">
 
@@ -2503,7 +2420,7 @@ Local virtual devices with high performances.
 
 # Robotics
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/96352533-b55fb380-1078-11eb-874c-f165cbcce899.png">
@@ -2593,7 +2510,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 # Open Source Security
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/96352529-af69d280-1078-11eb-9e87-8a73f48af246.png">
@@ -2760,7 +2677,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 # Differential Privacy
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/103486336-fd59c100-4db1-11eb-9780-a0b90bd5db1f.png">
@@ -2869,7 +2786,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 # DevOps
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/96352525-abd64b80-1078-11eb-95c8-e29d4c592bec.png">
@@ -3120,7 +3037,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 # .NET Development
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93719689-0d1e0400-fb39-11ea-82e5-331a8ff8060d.png">
@@ -3216,7 +3133,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 # C# Development
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/94306457-d6c0fa00-ff27-11ea-85dc-83dbb8f3e3e6.png">
@@ -3305,7 +3222,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 # F# Development
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/94306464-da548100-ff27-11ea-8934-e9830a549cf1.png">
@@ -3368,7 +3285,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 # PowerShell Development
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/115297904-9918fe00-a111-11eb-887c-774b939f1bdf.png">
@@ -3420,7 +3337,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 # TypeScript Development
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93133287-d1dc8a80-f68b-11ea-94d3-bba83dd5b0bb.png">
@@ -3509,7 +3426,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 [TS node](https://github.com/TypeStrong/ts-node) is a TypeScript execution and REPL for node.js.
 
 # React Native Development
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/100526624-7ba5c080-317f-11eb-8bf6-6fedf59480e1.png">
@@ -3593,7 +3510,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 [Chakra UI](https://chakra-ui.com/) is  a set of accessible, reusable, and composable React components that make it super easy to create websites and apps.
 
 # Electron Development
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/120394956-0b702700-c2e9-11eb-817d-872b002575b6.png">
@@ -3685,7 +3602,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 [Nativefier](https://github.com/jiahaog/nativefier) is an application that lets you make any web page into a desktop electron application.
 
 # C/C++ Development
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 <h1 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/115297894-961e0d80-a111-11eb-81c3-e2bd2ac9a7cd.png">
@@ -3835,7 +3752,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 [Infer](https://fbinfer.com/) is a static analysis tool for Java, C++, Objective-C, and C. Infer is written in [OCaml](https://ocaml.org/).
 
 # Java Development
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11#table-of-contents)
 
 <h1 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93925952-c0b6fd80-fccb-11ea-9f90-21c4148e3c86.png">
@@ -3935,7 +3852,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 [YourKit](https://www.yourkit.com/) is a technology leader, creator of the most innovative and intelligent tools for profiling Java & .NET applications.
 
 # Python Development
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93133273-ce490380-f68b-11ea-81d0-7f6a3debe6c0.png">
@@ -4052,7 +3969,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 [Scikit-Learn](https://scikit-learn.org/stable/index.html) is a simple and efficient tool for data mining and data analysis. It is built on NumPy,SciPy, and mathplotlib.
 
 # Ruby Development
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93719684-07282300-fb39-11ea-98fd-90394a2df6f2.png">
@@ -4119,7 +4036,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 # Flutter Development
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93719686-0abbaa00-fb39-11ea-978d-91e55844dd7a.png">
@@ -4181,7 +4098,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 # Node.js Development
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93719688-0becd700-fb39-11ea-9b87-3d52f1828aee.png">
@@ -4261,7 +4178,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 # Networking
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/82833053-d1687b80-9e71-11ea-8c6d-074100f2f54b.png">
@@ -4335,11 +4252,11 @@ Some low level protocols are TCP, UDP, IP, and ICMP. Some familiar examples of a
 
 ## Network Layers
 
-	While networking is often discussed in terms of topology in a horizontal way, between hosts, its implementation is layered in a vertical fashion throughout a computer or network. This means is that there are multiple technologies and protocols that are built on top of each other in order for communication to function more easily. Each successive, higher layer abstracts the raw data a little bit more, and makes it simpler to use for applications and users. It also allows you to leverage lower layers in new ways without having to invest the time and energy to develop the protocols and applications that handle those types of traffic.
+    While networking is often discussed in terms of topology in a horizontal way, between hosts, its implementation is layered in a vertical fashion throughout a computer or network. This means is that there are multiple technologies and protocols that are built on top of each other in order for communication to function more easily. Each successive, higher layer abstracts the raw data a little bit more, and makes it simpler to use for applications and users. It also allows you to leverage lower layers in new ways without having to invest the time and energy to develop the protocols and applications that handle those types of traffic.
 
-	As data is sent out of one machine, it begins at the top of the stack and filters downwards. At the lowest level, actual transmission to another machine takes place. At this point, the data travels back up through the layers of the other computer. Each layer has the ability to add its own "wrapper" around the data that it receives from the adjacent layer, which will help the layers that come after decide what to do with the data when it is passed off.
+    As data is sent out of one machine, it begins at the top of the stack and filters downwards. At the lowest level, actual transmission to another machine takes place. At this point, the data travels back up through the layers of the other computer. Each layer has the ability to add its own "wrapper" around the data that it receives from the adjacent layer, which will help the layers that come after decide what to do with the data when it is passed off.
 
-	One method of talking about the different layers of network communication is the OSI model. OSI stands for Open Systems Interconnect.This model defines seven separate layers. The layers in this model are:
+    One method of talking about the different layers of network communication is the OSI model. OSI stands for Open Systems Interconnect.This model defines seven separate layers. The layers in this model are:
 
     • Application: The application layer is the layer that the users and user-applications most often interact with. Network communication is discussed in terms of availability of resources, partners to communicate with, and data synchronization.
 
@@ -4420,7 +4337,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 # Databases
 
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/111918157-fcdfd680-8a40-11eb-96e9-7fecb43ea0eb.png">
@@ -4536,10 +4453,10 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 ## Contribute
 
-- [x] If would you like to contribute to this guide simply make a [Pull Request](https://github.com/mikeroyal/Windows-11-Guide/pulls).
+- [x] If would you like to contribute to this guide simply make a [Pull Request](https://github.com/Ibrahroot/installing-windiws-11/pulls).
 
 
 ## License
-[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#table-of-contents)
 
 Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) Public License](https://creativecommons.org/licenses/by/4.0/).
