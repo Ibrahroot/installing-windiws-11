@@ -1,5 +1,3 @@
-# installing-windiws-11
-Method For Installing Windows 11
 <h1 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/157766718-1d0780da-cfdf-4dd9-9cf6-d2a5cce3e57d.gif">
   <br />
@@ -17,10 +15,10 @@ Method For Installing Windows 11
 
 # Table of Contents
 
-1. [Getting Started](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#getting-started)
+1. [Getting Started](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#getting-started)
 
-      - [Windows 11 Desktop](https://github.com/Ibrahroot/installing-windiws-11#windows-11-desktop)
-      - [Bypass Windows 11's TPM, CPU and RAM Requirements](https://github.com/Ibrahroot/installing-windiws-11#bypass-Windows-11-requirements)
+      - [Windows 11 Desktop](https://github.com/mikeroyal/Windows-11-Guide#windows-11-desktop)
+      - [Bypass Windows 11's TPM, CPU and RAM Requirements](https://github.com/mikeroyal/Windows-11-Guide#bypass-Windows-11-requirements)
       - [Creating a Local Account on Windows 11 Home and Pro](https://github.com/Ibrahroot/installing-windiws-11#Creating-a-Local-Account-on-Windows-11-Home-and-Pro)
       - [Removing the Windows 11 Watermark for Unsupported Hardware](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#removing-the-windows-11-watermark)
       - [Ways to Customize Windows 11 Look and Feel](https://github.com/Ibrahroot/installing-windiws-11#Ways-to-Customize-Windows-11-Look-and-Feel)
@@ -43,7 +41,90 @@ Method For Installing Windows 11
 
 2. [Getting Software](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#getting-software)
 
-3.
+3. [Gaming](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#gaming)
+   - [DirectStorage](#DirectStorage)
+   - [Setting up OBS Studio](#Setting-up-OBS-Studio)
+      * [Useful OBS Studio 3rd party Plugins & Themes](#useful-obs-studio-3rd-party-plugins-and-themes)
+   - [Discord](#Discord)
+   - [Twitch](#Twitch)
+   - [Game Controllers](#game-controllers)
+   - [Steam](https://github.com/Ibrahroot/installing-windiws-11#steam)
+   - [Epic Games Store](https://github.com/Ibrahroot/installing-windiws-11#epic-games-store)
+   - [GOG Galaxy Store](#GOG-Galaxy)
+   - [Itch.io Store](#Itchio-Store)
+   - [Game Streaming](https://github.com/Ibrahroot/installing-windiws-11#game-streaming)
+   - [Game Emulators](https://github.com/Ibrahroot/installing-windiws-11#game-emulators)
+   - [Performance Benchmarks](https://github.com/Ibrahroot/installing-windiws-11#performance-benchmarks)
+
+4. [Windows Subsystem for Android (WSA)](https://github.com/Ibrahroot/installing-windiws-11#windows-subsystem-for-android-wsa)
+
+   - [Getting started with Windows Subsystem for Android](https://github.com/Ibrahroot/installing-windiws-11#getting-started-with-windows-subsystem-for-android)
+   - [Windows Subsystem for Android Settings](https://github.com/Ibrahroot/installing-windiws-11#windows-subsystem-for-android-settings)
+   - [WSA Toolbox](https://github.com/Ibrahroot/installing-windiws-11#wsa-toolbox)
+
+5. [Windows Subsystem for Linux (WSL)](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#windows-subsystem-for-linux-wsl)
+
+    - [WSL Learning Resources](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#wsl-learning-resources)
+    - [WSL Tools and Projects](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#wsl-tools--projects)
+    - [Setting up WSL Linux Distributions](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#setting-up-wsl-linux-distributions)
+
+6. [Windows Terminal](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#windows-terminal)
+
+7. [Visual Studio and VSCode](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#visual-studio-and-vscode)
+    - [Visual Studio Extensions for Developer Productivity](https://github.com/Ibrahroot/installing-windiws-11#Visual-Studio-Extensions-for-Developer-Productivity)
+    - [VS Code Extensions for Developer Productivity](https://github.com/Ibrahroot/installing-windiws-11#VS-Code-Extensions-for-Developer-Productivity)
+
+8. [Game Development](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#game-development)
+
+9. [Setting up a macOS Workspace](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#setting-up-a-macos-workspace)
+
+10. [Android Development](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#android-development)
+
+11. [Professional Audio/Video Editing](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#professional-audio--video-editing)
+
+12. [3D Graphics and Design](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#3d-graphics-and-design)
+
+13. [Kubernetes](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#kubernetes)
+
+14. [Machine Learning](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#machine-learning)
+
+15. [Robotics](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#robotics)
+
+16. [Open Source Security](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#open-source-security)
+
+17. [Differential Privacy](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#differential-privacy)
+
+18. [DevOps](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#devops)
+
+19. [.NET Development](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#net-development)
+
+20. [C# Development](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#c-development)
+
+21. [F# Development](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#f-development)
+
+22. [PowerShell Development](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#powershell-development)
+
+23. [TypeScript Development](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#typescript-development)
+
+24. [React Native Development](https://github.com/Ibrahroot/installing-windiws-11#react-native-development)
+
+25. [ElectronJS Development](https://github.com/Ibrahroot/installing-windiws-11#electron-development)
+
+26. [C/C++ Development](https://github.com/Ibrahroot/installing-windiws-11#cc-development)
+
+27. [Java Development](https://github.com/Ibrahroot/installing-windiws-11#java-development)
+
+28. [Python Development](https://github.com/Ibrahroot/installing-windiws-11#python-development)
+
+29. [Ruby Development](https://github.com/Ibrahroot/installing-windiws-11#ruby-development)
+
+30. [Flutter Development](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#flutter-development)
+
+31. [Node.js Development](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#nodejs-development)
+
+32. [Networking](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#networking)
+
+33. [Databases](https://github.com/Ibrahroot/installing-windiws-11/blob/main/README.md#databases)
 
 # Getting Started
 
